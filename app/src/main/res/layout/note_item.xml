@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    app:cardBackgroundColor="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        style="@style/blueBorder">
+
+        <TextView
+            android:id="@+id/noteTitle"
+            android:text="title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black_light"
+            android:fontFamily="@font/mochiypoponer"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+        
+
+        <ImageView
+            android:id="@+id/imgNote"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="8dp"
+            app:cardCornerRadius="200dp"
+            style="@style/rounded"
+            android:src="@drawable/rounded_corners" />
+
+        <TextView
+            android:id="@+id/noteDesc"
+            android:text="deskription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:fontFamily="@font/poppinsblack"
+            android:textColor="@color/black_light"
+            android:layout_marginTop="8dp"
+            android:maxLines="2"
+            android:ellipsize="end" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

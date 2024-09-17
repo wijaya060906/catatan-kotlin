@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNoteActivity">
+
+    <RelativeLayout
+        android:id="@+id/renav"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/tvnnoteapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="false"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/mochiypoponer"
+            android:text="Add Note"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/btnsave"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="15dp"
+            android:background="@android:color/transparent"
+            android:padding="10dp"
+            android:src="@drawable/baseline_note_add_24" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+    android:id="@+id/llImage"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/renav"
+    android:layout_marginStart="30dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginEnd="30dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:weightSum="10">
+
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="0dp"
+        android:layout_height="158dp"
+        android:layout_weight="6"
+        android:contentDescription="Gambar Catatan"
+        android:scaleType="centerCrop" />
+
+    <Button
+        android:id="@+id/btnUploadImage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_weight="4"
+        android:background="@drawable/buttonpluss"
+        android:fontFamily="@font/montserrat"
+        android:padding="10dp"
+        android:text="Unggah Gambar"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+</LinearLayout>
+
+    <EditText
+        android:id="@+id/et_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llImage"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/edittext"
+        android:fontFamily="@font/montserrat"
+        android:hint="Title"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+    <EditText
+        android:id="@+id/et_Desk"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/et_title"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/edittext"
+        android:fontFamily="@font/montserrat"
+        android:gravity="top|left"
+        android:hint="Deskripsi"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>

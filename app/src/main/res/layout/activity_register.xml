@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/tvlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppinsblack"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"/>
+
+
+
+    <ImageView
+        android:id="@+id/img_ilustrasion"
+        android:layout_width="280dp"
+        android:layout_height="298dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tvlogin"
+        android:src="@drawable/illustration_started" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_below="@+id/img_ilustrasion"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="@font/montserrat"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:id="@+id/tvusername"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tvusername"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        style="@style/ButtonWhite"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:id="@+id/et_email"
+        android:drawableStart="@drawable/baseline_email_24" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_below="@+id/et_email"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="@font/montserrat"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:id="@+id/tvPassword"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tvPassword"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        style="@style/ButtonWhite"
+        android:hint="Password"
+        android:paddingLeft="20dp"
+        android:inputType="textPassword"
+        android:paddingRight="20dp"
+        android:id="@+id/et_password"
+        android:drawableStart="@drawable/ic_lock"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_register"
+        android:elevation="20dp"
+        android:text="Register"
+        android:layout_below="@+id/et_password"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:shadowColor="@color/primary_color"
+        style="@style/button"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="jika sudah punya akun ?"
+        android:layout_below="@+id/btn_register"
+        android:id="@+id/tvnoteakun"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/tvformLogin"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/blue"
+        android:layout_below="@+id/tvnoteakun"/>
+
+</RelativeLayout>
