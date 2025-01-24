@@ -1,6 +1,6 @@
-# CATATAN-KOTLIN 📝
+# 📝 CATATAN-KOTLIN 📝
 
-Aplikasi **Catatan-Kotlin** adalah aplikasi catatan sederhana namun kaya fitur yang dirancang untuk membantu pengguna mengelola catatan pribadi dengan mudah dan efisien. Dibuat menggunakan **Kotlin**, aplikasi ini juga memanfaatkan **Firebase Authentication** untuk keamanan pengguna serta **Room Database** untuk menyimpan data catatan secara lokal.
+**Catatan-Kotlin** is a powerful yet simple note-taking application designed to help users effortlessly organize their personal notes. Built using **Kotlin**, this app leverages **Firebase Authentication** for secure user management and **Room Database** for efficient local data storage, ensuring a seamless and robust experience.
 
 ## Key Features
 
@@ -39,4 +39,9 @@ This application was developed by **Yusan Pamungkas Wijaya**, a talented young d
 
 ---
 With **Catatan-Kotlin**, manage your notes better and share your inspiration with others. Enjoy a simple yet powerful note-taking experience!
+
+---
+### Developer Information
+- **Name**: Yusan Pamungkas Wijaya
+- **GitHub**: [github.com/wijaya060906](https://github.com/wijaya060906)
 
