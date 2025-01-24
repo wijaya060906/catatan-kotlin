@@ -1,4 +1,4 @@
-# Catatan-Kotlin
+#📝 Catatan-Kotlin 📝
 
 Aplikasi **Catatan-Kotlin** adalah aplikasi catatan sederhana namun kaya fitur yang dirancang untuk membantu pengguna mengelola catatan pribadi dengan mudah dan efisien. Dibuat menggunakan **Kotlin**, aplikasi ini juga memanfaatkan **Firebase Authentication** untuk keamanan pengguna serta **Room Database** untuk menyimpan data catatan secara lokal.
 
